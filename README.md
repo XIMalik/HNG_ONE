@@ -11,10 +11,12 @@ Below is a sample response
 }
 
 To run this locally, run:
-1. pip install r.txt: To install all project requirements
-2. python manage.py migrate: To make migrations
-3. python manage.py runserver: To start project
-4. Make your request with no payload
+1. python -m venv env
+2. env\Scripts\activate
+2. pip install r.txt: To install all project requirements
+3. python manage.py migrate: To make migrations
+4. python manage.py runserver: To start project
+5. Make your request with no payload
 
 HNG_ONE
 XIMALIK
